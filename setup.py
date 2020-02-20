@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="PanaXea", # Replace with your own username
-    version="0.8.0-dev0",
+    version="0.9.0-dev0",
     author="Dario Panada",
     author_email="dario.panada@manchester.ac.uk",
     description="A minimalist framework for agent-based modelling in Python.",
