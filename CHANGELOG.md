@@ -1,5 +1,11 @@
 # Changelog
 
+[0.9.0-dev-0] - 2020-02-20
+
+## Changed
+
+** Open-sourced;
+
 ## [0.6.1-dev-0] - 2020-02-20
 
 ## Changed
