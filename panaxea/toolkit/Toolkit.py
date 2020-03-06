@@ -150,7 +150,7 @@ class ModelPicklerLite(Helper, object):
         start = time.time()
         model_lite = Model(5)
 
-        if self.pickleSchedule:
+        if self.pickle_schedule:
             model_lite.schedule.agents = model.schedule.agents.union(
                 model.schedule.agents_to_schedule)
 
@@ -163,7 +163,7 @@ class ModelPicklerLite(Helper, object):
                                        h.__class__.__name__ not in
                                        "ExitConditionWatcher"]
 
-        if self.pickleEnvs:
+        if self.pickle_envs:
             model_lite.environments = copy.deepcopy(model.environments)
             env_start = time.time()
             for k, v in model_lite.environments.iteritems():

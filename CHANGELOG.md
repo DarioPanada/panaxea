@@ -1,5 +1,11 @@
 # Changelog
 
+[0.10.0-dev-0] - 2020-06
+
+## Changed
+
+Fixed bug in ModelPicklerLite
+
 [0.9.0-dev-0] - 2020-02-20
 
 ## Changed
