@@ -1,22 +1,28 @@
 # Changelog
 
+[0.11.0-dev-1] - 2020-03-07
+
+## Changed 
+
+* Minor changes to dockerfile
+
 [0.11.0-dev-0] - 2020-03-07
 
 ## Changed
 
-Fixed bg in ModelDepicklerLite
+* Fixed bug in ModelDepicklerLite
 
 [0.10.0-dev-0] - 2020-03-06
 
 ## Changed
 
-Fixed bug in ModelPicklerLite
+* Fixed bug in ModelPicklerLite
 
 [0.9.0-dev-0] - 2020-02-20
 
 ## Changed
 
-** Open-sourced;
+* Open-sourced;
 
 ## [0.6.1-dev-0] - 2020-02-20
 
