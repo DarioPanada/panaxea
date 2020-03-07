@@ -1,6 +1,12 @@
 # Changelog
 
-[0.10.0-dev-0] - 2020-06
+[0.11.0-dev-0] - 2020-03-07
+
+## Changed
+
+Fixed bg in ModelDepicklerLite
+
+[0.10.0-dev-0] - 2020-03-06
 
 ## Changed
 

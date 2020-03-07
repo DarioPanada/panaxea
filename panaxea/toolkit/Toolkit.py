@@ -191,7 +191,7 @@ class ModelPicklerLite(Helper, object):
         print("Pickler lite took %s seconds" % str(end - start))
 
 
-def depickle_from_lite(picklePath):
+def depickle_from_lite(pickle_path):
     """
     Given a path to a pickle light file, recreates the corresponding object
     with all available properties
@@ -206,7 +206,7 @@ def depickle_from_lite(picklePath):
 
     Parameters
     ----------
-    picklePath : string
+    pickle_path : string
         The path to the pickle file relative to where the function is being
         called from.
 
@@ -216,8 +216,12 @@ def depickle_from_lite(picklePath):
         A (potentially incomplete) instance of a model derived from the
         pickle file.
     """
-    with open(picklePath, 'rb') as f:
-        model = pickle.load(f, encoding='latin1')
+    try:
+        with open(pickle_path, 'rb') as f:
+            model = pickle.load(f, encoding='latin1')
+    except TypeError:
+        with open(pickle_path, 'rb') as f:
+            model = pickle.load(f)
 
     # Handling both Python 2 and 3
 
